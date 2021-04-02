@@ -5,15 +5,14 @@ html, body {
     background-image: url("assets/paper.jpg");
     background-image: cover;
     background-image: fixed;
-    
 } 
 
 h1 {
   font-family: 'Train One', cursive;
   color: blue;
   font-size: 50px;
-  
 }
+
 h2 {
     font-family: 'Montserrat', sans-serif;
     color: blue;
@@ -23,6 +22,7 @@ h2 {
     margin-top: 100px;
     letter-spacing: 2px;
 }
+
 h4 {
     font-family: 'Montserrat', sans-serif;
     color: blue;
@@ -36,13 +36,13 @@ p {
     color: blue;
     font-size: 25px;
     font-weight: 800;
- 
 }
 
 .navbar-brand {
   font-family: 'Train One', cursive;
   font-size: 2em;
 }
+
 .nav-link {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5em;
@@ -58,7 +58,6 @@ p {
   padding: 15px;
   border-radius: 5px;
   background-color: rgb(136, 156, 169,.2);
-
 }
 
 .image {
@@ -105,8 +104,7 @@ p {
 .aboutContainer {
     flex-direction: row;
     margin-top: 300px;
-
-  }
+}
 
 .image2 {
     display: block;
@@ -114,9 +112,9 @@ p {
     margin-right: auto;
     margin-top: 40px;
     width: 35%;
-  }
+}
 
-  .aboutContainer {
+.aboutContainer {
     width: 80%;
     margin: auto;
     display: flex;
@@ -127,15 +125,16 @@ p {
     background-color: rgb(136, 156, 169,.3);
     border: 1px solid blue;
     border-radius: 10px;
-  }
-  .avatar {
+}
+
+.avatar {
     margin: 30px;
     border: 1px solid blue;
     border-radius: 50%;
     background-color: rgb(242, 242, 218,.2);
-  }
+}
 
-  .introText {
+.introText {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 800;
@@ -150,7 +149,7 @@ p {
 
                         /*      PROJECTS SECTION     */
 
-  .projectsContainer {
+.projectsContainer {
     width: 80%;
     margin: auto;
     margin-top: 25px;
@@ -162,9 +161,9 @@ p {
     background-color: rgb(136, 156, 169,.2);
     border: 1px solid blue;
     border-radius: 10px;
-  }
+}
 
-  .projects {
+.projects {
     width: 250px;
     height: 250px;
     margin: 25px;
@@ -173,15 +172,15 @@ p {
     border-radius: 50%;
     background-color: rgb(242, 242, 218,.2);
     padding: 30px;
-  }
+}
 
-  .projects:hover {
+.projects:hover {
       border: 5px solid red;
-  }
+}
 
             /*          SKILLS SECTION      */
 
-  .skillsContainer {
+.skillsContainer {
     width: 80%;
     margin: auto;
     margin-top: 25px;
@@ -194,41 +193,42 @@ p {
     background-color: rgb(136, 156, 169,.2);
     border: 1px solid blue;
     border-radius: 10px;
-  }
+}
 
-  .skills {
+.skills {
     margin: 30px;
     margin-bottom: 30px;
     
-  }
+}
 
   /*      ABOUT PAGE    */
 
-  h1 {
+h1 {
     font-family: 'Montserrat', sans-serif;
     color: blue;
-  }
+}
 
-  .aboutMain {
+.aboutMain {
     width: 50%;
     height: auto;
-  }
-  .logo {
+}
+
+.logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 25%;
+}
 
-  }
-
-  #about-Header {
+#about-Header {
     font-family: 'Kiwi Maru', serif;
     color: blue;
     font-size: 40px;
     text-align: center;
     margin-top: 10px;
-  }
-  #text {
+}
+
+#text {
     display: inline-block;
     font-family: 'Kiwi Maru', serif;
     color: blue;
@@ -237,9 +237,9 @@ p {
     margin: 20px 5%;
     border: 1px solid blue;
     padding: 10px;
-  }
+}
 
-  .footer {
+.footer {
     position: relative;
     height: 50px;
     left: 0;
@@ -253,15 +253,13 @@ p {
     text-decoration: none;
     border: none;
     outline: none;
-    
-    
-  }
+}
   
-  #gallery {
+#gallery {
     margin: 15px;
    
-  }
-  #tspLink {
+}
+#tspLink {
     font-family: 'Montserrat', sans-serif;
     color: blue;
     font-size: xx-large;
@@ -274,11 +272,10 @@ p {
     margin-top: 100px;
     margin-bottom: 100px;
     width: 50%;
-    border-radius: 10px;
+    border-radius: 10px;  
+}
 
-    
-  }
-  #tspLink:hover {
+#tspLink:hover {
     font-family: 'Train One', cursive;
     color: blue;
     font-size: xx-large;
@@ -291,23 +288,24 @@ p {
     margin-bottom: 100px;
     width: 50%;
     border-radius: 10px;
-  }
+}
 
-  #contact-form {
+#contact-form {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
     margin-bottom: 100px;
     width: 50%;
-  }
-  .contactRow {
+}
+
+.contactRow {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 800;
-  }
+}
 
-  .projectsGrid{
+.projectsGrid{
     margin-top: 25px;
     margin-left:auto;
     margin-right:auto;
@@ -317,9 +315,9 @@ p {
     padding: 15px;
     border-radius: 5px;
     background-color: rgb(136, 156, 169,.2);
-  
-  }
-  .project_icons {
+}
+
+.project_icons {
       width: 250px;
       height: 250px;
       cursor: pointer;
@@ -327,13 +325,13 @@ p {
       border-radius: 50%;
       background-color: rgb(242, 242, 218,.2);
       padding: 30px; 
-    }
+}
   
-  .project_icons:hover {
+.project_icons:hover {
         border: 5px solid red;
-    }
-  #resume {
-   
+}
+
+#resume {
     font-family: 'Montserrat', sans-serif;
     color: blue;
     font-size: xx-large;
@@ -348,9 +346,9 @@ p {
     margin-bottom: 100px;
     width: 50%;
     border-radius: 10px;
-    }
+}
 
-    #resume:hover {
+#resume:hover {
     font-family: 'Train One', cursive;
     color: blue;
     font-size: xx-large;
@@ -364,4 +362,4 @@ p {
     margin-bottom: 100px;
     width: 50%;
     border-radius: 10px;
-    }
+}
