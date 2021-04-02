@@ -5,32 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tom Stout</title>
+    <link rel="icon" href="./assets/ts_favicon.png" type="image" sizes="30x30">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    
     <link rel='stylesheet' ref='text/css' href='style.css'>
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
-    </style>    <!--font-family: 'Montserrat', sans-serif; -->
+   
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
 
+<link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&family=Montserrat:wght@100&family=Train+One&display=swap" rel="stylesheet">
+    </style>    <!--font-family: 'Kiwi Maru', serif;
+                    font-family: 'Montserrat', sans-serif;
+                    font-family: 'Train One', cursive; -->
 </head>
 
 <body>
-                                  <!--  NAV BAR  -->
-  <div class="nav">
-    <a class="active" href="#home">HOME</a>
-    <a href="#projects">PROJECTS</a>
-    <img id="headerImg" type="image/png" src="./assets/logo.png" height= "75">
-    <a href="#about">ABOUT</a>
-    <a href="#contact">CONTACT</a>
-  </div>
+    <nav class="navbar sticky-top" style="background-color: rgb(136, 156, 169,.2);">
 
-                                  <!--    MAIN IMAGE    -->
-  <div class="container">
-    <img src="./assets/downtown.jpg" alt="Indy" class="image" style="width:100%">
-    <div class="middle">
-      <div class="text">Welcome to the home of Indy's Creative Developer!</div>
-    </div>
-  </div>
+        <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">TS</a>
+              <a class="nav-link" href="about.html">- About -</a>
+              <a class="nav-link" href="projects.html">- Projects -</a>
+              <a class="nav-link" href="contact.html">- Contact -</a>
+        </div>
+    </nav>
+                
+        <!-----------------------MAIN IMAGE----------------------------->
+    <div class="container">
+        <img src="./assets/downtown.jpg" alt="Indy" class="image" style="width:100%">
+        <div class="middle">
+          <div class="text">Welcome to the home of Indy's Creative Developer!</div>
+        </div>
+      </div>
 
   <h2>TOM STOUT</h2>
   <h4>CREATIVE WEB DEVELEOPER</h4>
@@ -38,47 +44,53 @@
                                   <!--    ABOUT CONTAINER    -->
   <div class="aboutContainer">
 
-        <div> <img src="./assets/avatar.png" alt="Avatar" class="avatar" height="350"></div>
+        <div> <img src="./assets/img01.jpg" alt="Avatar" class="avatar" height="350"></div>
         
-        
-        <div class="aboutText"> Cupcake ipsum dolor. Sit amet caramels. Toffee muffin bonbon cotton candy danish gummi bears. Bear claw marzipan cookie bear claw pastry ice cream dessert sweet roll chupa chups. Gingerbread gummi bears gummi bears pudding donut pastry cheesecake. Toffee chocolate cake cake cheesecake icing carrot cake biscuit icing. Carrot cake donut chocolate croissant marshmallow candy. Biscuit caramels jelly candy lollipop. Pudding chocolate gummi bears soufflé bear claw sweet roll donut toffee. Sweet jujubes dragée halvah. Dragée jelly lollipop marshmallow. Dragée soufflé wafer gummi bears tiramisu marzipan cheesecake wafer gummies. Cake marshmallow caramels donut gummies bear claw.</div>
+        <div class="introText"> 
+            <p>Hello!  My name is Tom Stout, and I am a creative web developer!</p> 
+            <p>I draw on years of creative expression to develope creative content that will allow your website to stand out among the common templates used by so many sites.
+            </p> 
+            <p>Feel free to look around, learn about me, and see some of the projects I've been working on.  
+            </p>
+        </div>
   </div>
                                   <!--    PROJECTS CONTAINER    -->
   <h2>MY  PROJECTS</h2>
+
   <div class="projectsContainer">
-
-      <div>
-          <a href="https://tom-stout325.github.io/api_1/"><img src="./assets/brain.png" alt="API 1" class="projects"></a>
-      </div>
-      
-      <div>
-        <a href="https://tom-stout325.github.io/css_creature/"><img src="./assets/creature.png" alt="CSS Creature" class="projects"></a>
-      </div>
-
-        <a href="https://tom-stout325.github.io/guessing_game/"><img src="./assets/warGames.jpg" alt="Guessing Game" class="projects" War Games></a>
-      
         <div>
-          <a href="https://tom-stout325.github.io/StaticLayout/"><img src="./assets/kast.png" alt="Static Layout" class="projects"></a>
-
-          <div>
-            <a href="https://tom-stout325.github.io/StaticLayout/"><img src="./assets/gray.jpg" alt="Wallpaper" class="projects"></a>
+            <a href="https://tom-stout325.github.io/css_creature/"><img src="./assets/creature2.jpg" alt="CSS Creature" class="projects"></a>
         </div>
-      </div>
-      
+        <div>
+            <a href="https://tom-stout325.github.io/StaticLayout/"><img src="./assets/kast2.jpg" alt="Static Layout" class="projects"></a>
+        </div>
+        <div>
+            <a href="https://tom-stout325.github.io/guessing_game/"><img src="./assets/warGames2.jpg" alt="Guessing Game" class="projects" War Games></a>
+        </div>
+        <div>
+              <a href="https://tom-stout325.github.io/api_1/"><img src="./assets/brain2.jpg" alt="API 1" class="projects"></a>
+        </div>
+        <div>
+              <a href="https://ts-api2.web.app/"><img src="./assets/gray2.jpg" alt="Wallpaper" class="projects"></a>
+        </div>
   </div>
 
 
                                   <!--    SPECIALTIES CONTAINER    -->
   <h2>MY SPECIALTIES</h2>
   <div class="skillsContainer">
-    <div> <img src="./assets/html.png" alt="Skills" class="skills"></div>
-    <div> <img src="./assets/css.png" alt="Skills" class="skills"></div>
-    <div> <img src="./assets/js.png" alt="Skills" class="skills" height="120px"></div>
-    <div> <img src="./assets/ps.png" alt="Skills" class="skills" height="120px"></div>
-    <div> <img src="./assets/lr.png" alt="Skills" class="skills"></div>
-    <div> <img src="./assets/xd.png" alt="Skills" class="skills" height="110px"></div>
-    <div> <img src="./assets/fcp.png" alt="Skills" class="skills" height="96px"></div>
-    <div> <img src="./assets/office.png" alt="Skills" class="skills" height="96px"></div>
+      <div> <img src="./assets/html.png" alt="Skills" class="skills"></div>
+      <div> <img src="./assets/css.png" alt="Skills" class="skills"></div>
+      <div> <img src="./assets/js.png" alt="Skills" class="skills" height="120px"></div>
+      <div> <img src="./assets/ps.png" alt="Skills" class="skills" height="120px"></div>
+      <div> <img src="./assets/lr.png" alt="Skills" class="skills"></div>
+      <div> <img src="./assets/xd.png" alt="Skills" class="skills" height="110px"></div>
+      <div> <img src="./assets/fcp.png" alt="Skills" class="skills" height="96px"></div>
+      <div> <img src="./assets/office.png" alt="Skills" class="skills" height="96px"></div>
+  </div>
+
+  <div class="footer">
+    <p><a href="https://github.com/Tom-Stout325">- Created by Tom Stout -</a></p>
 
     
 </body>
