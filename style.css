@@ -2,7 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     /*background-image: url("Assets/paper.jpg");  git hub link*/
-    background-image: url("assets/paper.jpg");
+    background-image: url("Assets/paper.jpg");
     background-image: cover;
     background-image: fixed;
 } 
